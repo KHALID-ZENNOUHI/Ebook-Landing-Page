@@ -1,0 +1,45 @@
+:root{
+    --font-family: 'Ubuntu', sans-serif;
+    --background: #333333;
+    --minFont:#AAAAAA;
+    --button:#49B970;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+body{
+    background-color: var(--background);
+}
+.container{
+    display: block;
+    text-align: center;
+    margin-top: 73px;
+}
+.title{
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.paragraph{
+    color: var(--minFont);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.button{
+    background-color: var(--button);
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.button:hover{
+    color: #333333;
+    background-color: white;
+    cursor: pointer;
+}
